@@ -15,7 +15,7 @@ for var in required_vars:
 
 # Initialize Telegram client
 client = TelegramClient(
-    'STORAGE/session_name',
+    'session_name',
     os.getenv('TELEGRAM_API_ID'),
     os.getenv('TELEGRAM_API_HASH')
 )
